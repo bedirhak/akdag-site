@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim - Akdağ Dekorasyon | İstanbul Tadilat ve Dekorasyon</title>
+    <meta name="description"
+        content="Akdağ Dekorasyon ile iletişime geçin. İstanbul'da tadilat ve dekorasyon hizmetleri için ücretsiz keşif ve fiyat teklifi alın.">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/components.css">
+    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="styles/contactButton.css">
+</head>
+
+<body>
+    <!-- Header otomatik olarak script tarafından eklenecek -->
+
+    <!-- Contact Hero -->
+    <section class="contact-hero">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1>İletişim</h1>
+                <p>Tadilat ve dekorasyon projeleriniz için bizimle iletişime geçin</p>
+                <div class="breadcrumb">
+                    <a href="index.html">Ana Sayfa</a>
+                    <span>/</span>
+                    <span>İletişim</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Cards Section -->
+    <section class="contact-cards-section">
+        <div class="container">
+            <div class="contact-cards">
+                <div class="contact-card">
+                    <div class="card-icon">
+                        <i class="fas fa-phone-alt"></i>
+                    </div>
+                    <h3>Telefon</h3>
+                    <p>Hemen arayın, ücretsiz keşif randevusu alın</p>
+                    <a href="tel:+905545013325" class="card-link">0554 501 33 25</a>
+                </div>
+
+                <div class="contact-card">
+                    <div class="card-icon">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                    <h3>WhatsApp</h3>
+                    <p>Hızlı iletişim için WhatsApp'tan yazın</p>
+                    <a href="https://wa.me/905545013325" target="_blank" class="card-link">Mesaj Gönder</a>
+                </div>
+
+                <div class="contact-card">
+                    <div class="card-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>E-posta</h3>
+                    <p>Detaylı bilgi ve teklifler için</p>
+                    <a href="mailto:info@akdagdekorasyon.com" class="card-link">info@akdagdekorasyon.com</a>
+                </div>
+
+                <div class="contact-card">
+                    <div class="card-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Hizmet Alanı</h3>
+                    <p>İstanbul'un tüm ilçelerinde hizmet</p>
+                    <span class="card-link">İstanbul Geneli</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Main Section -->
+    <section class="contact-main-section">
+        <div class="container">
+            <div class="contact-wrapper">
+                <!-- Contact Form -->
+                <div class="contact-form-wrapper">
+                    <div class="form-header">
+                        <h2>Ücretsiz Keşif Talebi</h2>
+                        <p>Formu doldurun, size en kısa sürede dönüş yapalım</p>
+                    </div>
+                    
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">
+                                    <i class="fas fa-user"></i>
+                                    Ad Soyad *
+                                </label>
+                                <input type="text" id="name" name="name" placeholder="Adınız ve soyadınız" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="phone">
+                                    <i class="fas fa-phone"></i>
+                                    Telefon *
+                                </label>
+                                <input type="tel" id="phone" name="phone" placeholder="05XX XXX XX XX" required>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">
+                                    <i class="fas fa-envelope"></i>
+                                    E-posta
+                                </label>
+                                <input type="email" id="email" name="email" placeholder="ornek@mail.com">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="service">
+                                    <i class="fas fa-tools"></i>
+                                    Hizmet Türü *
+                                </label>
+                                <select id="service" name="service" required>
+                                    <option value="">Hizmet Seçiniz</option>
+                                    <option value="boya-alci">Boya & Alçı İşleri</option>
+                                    <option value="fayans-seramik">Fayans & Seramik</option>
+                                    <option value="laminat-parke">Laminat & Parke</option>
+                                    <option value="cati-izolasyon">Çatı & İzolasyon</option>
+                                    <option value="kapi-dolap">Kapı & Dolap</option>
+                                    <option value="tesisat-elektrik">Tesisat & Elektrik</option>
+                                    <option value="duvar-kaplama">Duvar Kaplama</option>
+                                    <option value="dis-mekan">Dış Mekan & Pergola</option>
+                                    <option value="tadilat-tamirat">Tadilat & Tamirat</option>
+                                    <option value="anahtar-teslim">Anahtar Teslim Proje</option>
+                                    <option value="diger">Diğer</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group full-width">
+                            <label for="address">
+                                <i class="fas fa-map-marker-alt"></i>
+                                Adres / İlçe
+                            </label>
+                            <input type="text" id="address" name="address" placeholder="Hangi ilçede hizmet almak istiyorsunuz?">
+                        </div>
+
+                        <div class="form-group full-width">
+                            <label for="message">
+                                <i class="fas fa-comment-alt"></i>
+                                Proje Detayları
+                            </label>
+                            <textarea id="message" name="message" rows="4" 
+                                placeholder="Projeniz hakkında detay verebilirsiniz (oda sayısı, metrekare, özel istekler vb.)"></textarea>
+                        </div>
+
+                        <button type="submit" class="submit-btn">
+                            <i class="fas fa-paper-plane"></i>
+                            Keşif Talebi Gönder
+                        </button>
+                    </form>
+                </div>
+
+                <!-- Contact Info Side -->
+                <div class="contact-info-side">
+                    <div class="info-box">
+                        <h3>Neden Bizi Seçmelisiniz?</h3>
+                        <ul class="features-list">
+                            <li>
+                                <i class="fas fa-check-circle"></i>
+                                <span>Ücretsiz keşif ve fiyat teklifi</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle"></i>
+                                <span>10+ yıllık sektör deneyimi</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle"></i>
+                                <span>A kalite malzeme garantisi</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle"></i>
+                                <span>İşçilik garantisi</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle"></i>
+                                <span>Zamanında teslimat</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle"></i>
+                                <span>Uygun fiyat politikası</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="info-box working-hours">
+                        <h3>Çalışma Saatleri</h3>
+                        <div class="hours-list">
+                            <div class="hours-item">
+                                <span>Pazartesi - Cuma</span>
+                                <span>08:00 - 19:00</span>
+                            </div>
+                            <div class="hours-item">
+                                <span>Cumartesi</span>
+                                <span>09:00 - 18:00</span>
+                            </div>
+                            <div class="hours-item">
+                                <span>Pazar</span>
+                                <span>Randevuyla</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="quick-call-box">
+                        <div class="call-icon">
+                            <i class="fas fa-headset"></i>
+                        </div>
+                        <div class="call-content">
+                            <span>Hemen Arayın</span>
+                            <a href="tel:+905545013325">0554 501 33 25</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="contact-cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Projenize Hemen Başlayalım</h2>
+                <p>İstanbul'un her yerinde kaliteli tadilat ve dekorasyon hizmeti</p>
+                <div class="cta-buttons">
+                    <a href="tel:+905545013325" class="cta-btn primary">
+                        <i class="fas fa-phone"></i>
+                        Hemen Ara
+                    </a>
+                    <a href="https://wa.me/905545013325" class="cta-btn secondary" target="_blank">
+                        <i class="fab fa-whatsapp"></i>
+                        WhatsApp
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Scripts -->
+    <script src="scripts/components.js"></script>
+    <script src="scripts/contactButton.js"></script>
+</body>
+
+</html>
