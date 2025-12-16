@@ -23,8 +23,12 @@ function createHeader() {
                         <a href="tel:+905545013325">0554 501 33 25</a>
                     </div>
                     <div class="top-contact-item">
+                        <i class="fas fa-phone"></i>
+                        <a href="tel:+905302373425">0530 237 34 25</a>
+                    </div>
+                    <div class="top-contact-item">
                         <i class="fas fa-envelope"></i>
-                        <a href="mailto:info@akdagdekorasyon.com">info@akdagdekorasyon.com</a>
+                        <a href="mailto:akdagersin984@gmail.com">akdagersin984@gmail.com</a>
                     </div>
                 </div>
             </div>
@@ -171,8 +175,12 @@ function createFooter() {
                             <a href="tel:+905545013325">0554 501 33 25</a>
                         </div>
                         <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:+905302373425">0530 237 34 25</a>
+                        </div>
+                        <div class="contact-item">
                             <i class="fas fa-envelope"></i>
-                            <a href="mailto:info@akdagdekorasyon.com">info@akdagdekorasyon.com</a>
+                            <a href="mailto:akdagersin984@gmail.com">akdagersin984@gmail.com</a>
                         </div>
                         <div class="contact-item">
                             <i class="fas fa-map-marker-alt"></i>
