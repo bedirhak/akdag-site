@@ -47,6 +47,7 @@ function createHeader() {
                     <ul class="nav-menu">
                         <li><a href="index.html" class="nav-link">Ana Sayfa</a></li>
                         <li><a href="hakkimizda.html" class="nav-link">Hakkımızda</a></li>
+                        <li><a href="galeri.html" class="nav-link">Yaptığımız İşler</a></li>
                         <li class="dropdown">
                             <a href="#" class="nav-link dropdown-toggle">
                                 Hizmetlerimiz <i class="fas fa-chevron-down"></i>
@@ -150,6 +151,7 @@ function createFooter() {
                     <ul class="footer-nav-list">
                         <li><a href="index.html"><i class="fas fa-chevron-right"></i> Ana Sayfa</a></li>
                         <li><a href="hakkimizda.html"><i class="fas fa-chevron-right"></i> Hakkımızda</a></li>
+                        <li><a href="galeri.html"><i class="fas fa-chevron-right"></i> Yaptığımız İşler</a></li>
                         <li><a href="iletisim.html"><i class="fas fa-chevron-right"></i> İletişim</a></li>
                     </ul>
                 </div>
