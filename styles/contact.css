@@ -18,7 +18,7 @@
 
 /* Contact Hero */
 .contact-hero {
-    background: linear-gradient(135deg, rgba(0, 123, 191, 0.95) 0%, rgba(0, 86, 179, 0.95) 100%),
+    background: linear-gradient(135deg, rgba(56, 178, 178, 0.95) 0%, rgba(42, 138, 138, 0.95) 100%),
                 url('../assets/images/contact-hero.jpg') center/cover no-repeat;
     padding: 160px 0 100px;
     text-align: center;
@@ -32,7 +32,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(135deg, rgba(0, 123, 191, 0.9) 0%, rgba(0, 86, 179, 0.9) 100%);
+    background: linear-gradient(135deg, rgba(56, 178, 178, 0.9) 0%, rgba(42, 138, 138, 0.9) 100%);
     z-index: 0;
 }
 
