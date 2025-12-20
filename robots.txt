@@ -1,0 +1,24 @@
+# Akdağ Dekorasyon - robots.txt
+# https://akdagdekorasyon.com
+
+# Tüm arama motorlarına izin ver
+User-agent: *
+Allow: /
+
+# CSS, JS ve görsellere erişime izin ver
+Allow: /styles/
+Allow: /scripts/
+Allow: /assets/
+
+# Sitemap konumu
+Sitemap: https://akdagdekorasyon.com/sitemap.xml
+
+# Google ve Bing botları için özel kurallar
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Crawl-delay (isteğe bağlı - sunucu yükünü azaltmak için)
+# Crawl-delay: 10
